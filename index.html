@@ -14,6 +14,7 @@
     <title>app下载</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/plugins/flexible.min.js"></script>
 </head>
 
 <body>
@@ -28,11 +29,11 @@
             <button onclick="download_btn(this)" data-type="android">安卓下载</button>
         </div>
     </div>
+    <div class="text" style="text-align: center;color: #fff;margin-top: 10px;">请用手机浏览器打开该页面</div>
     <div class="footer">
         COPYRGINT &copy; 2018 JULY GROUP
     </div>
     <script type="text/javascript" src="./js/plugins/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="./js/plugins/flexible.min.js"></script>
     <script>
         function download_btn(dom) {
             var btn_type = $(dom).data('type');
